@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 7da43a59c1579fe428262dd6fd432bb0
+timeCreated: 1458876591
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sn8keBody
+    21300002: Sn8keTail
+    21300004: Sn8keHead
+    21300006: Pup
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sn8keBody
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 39}
+        - {x: -41, y: -64}
+        - {x: 28, y: -64}
+        - {x: 36, y: -36}
+        - {x: 36, y: 25}
+        - {x: 14, y: 39}
+    - name: Sn8keTail
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 41}
+        - {x: -26, y: 28}
+        - {x: -26, y: -8}
+        - {x: -4, y: -64}
+        - {x: 15, y: -64}
+        - {x: 22, y: -25}
+        - {x: 22, y: 39}
+        - {x: 20, y: 41}
+    - name: Sn8keHead
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: -16}
+        - {x: 32, y: 4}
+        - {x: 21, y: 31}
+        - {x: 13, y: 48}
+        - {x: -37, y: 48}
+        - {x: -50, y: -15}
+        - {x: -50, y: -41}
+        - {x: -39, y: -64}
+        - {x: 33, y: -64}
+        - {x: 42, y: -21}
+        - {x: 42, y: -17}
+        - {x: 40, y: -16}
+    - name: Pup
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 62}
+        - {x: -59, y: -64}
+        - {x: 58, y: -64}
+        - {x: 64, y: -61}
+        - {x: 64, y: 36}
+        - {x: 52, y: 62}
+      - - {x: 54, y: -63}
+        - {x: 54, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -52}
+        - {x: 61, y: -52}
+      - - {x: -1, y: 64}
+        - {x: -1, y: 61}
+        - {x: 2, y: 58}
+        - {x: 4, y: 58}
+        - {x: 9, y: 63}
+        - {x: 9, y: 64}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
