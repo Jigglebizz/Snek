@@ -12,20 +12,19 @@ public class Sn8ke : MonoBehaviour {
     public float bodyRotationOffset;    // Where each body piece rotates
     public float tailRotationOffset;    // Where we rotate on the tail piece
     public int spacing;                 // Spacing between body parts
+    public float speedIncrement;        // How much we increment the speed by
 
     private GameObject head;            // The head
     private ArrayList body;             // All of the bodies
     private GameObject tail;            // Tail
 
-    private float rotation;             // We rote
-    private bool dead;               // Have we dead?
+    private bool dead;                  // Have we dead?
 
     /// <summary>
     /// Initialize Snek
     /// </summary>
     void Start () {
         // Initial vars
-        rotation = 0f;
         dead = false;
 
         // Create head
@@ -89,7 +88,6 @@ public class Sn8ke : MonoBehaviour {
         if (!dead)
         {
             float rotation_amt = -Input.GetAxis("Horizontal") * sensitivity * Time.deltaTime;
-            this.rotation += rotation_amt;
             head.transform.Translate(new Vector3(0, -headRotationOffset, 0));
             head.transform.Rotate(Vector3.forward, rotation_amt);
             head.transform.Translate(new Vector3(0, headRotationOffset, 0));
@@ -126,5 +124,10 @@ public class Sn8ke : MonoBehaviour {
         ((Sn8kePart)bodySegment.GetComponent<Sn8kePart>()).setRotationOffset(bodyRotationOffset);
         bodySegment.tag = "Body";
         body.Add(bodySegment);
+    }
+
+    public void increaseSpeed()
+    {
+        velocity += speedIncrement;
     }
 }
